@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "customize-cra": "^1.0.0",
+    "react-dev-utils": "^11.0.1"
+  }
+}
