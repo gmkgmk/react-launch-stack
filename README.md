@@ -1,4 +1,4 @@
-# react-launch-stact
+# react-launch-stack
 
 点击页面自动在编辑带打开对应文件
 
