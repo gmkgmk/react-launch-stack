@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+// App.tsx
+import React, { useState } from 'react'
+import Test from './test'
+import './App.css'
 
 function App() {
+  const [content, setContent] = useState('Hello World!')
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      className='app'
+      // 方便测试用例中获取 DOM 节点
+      data-testid='container'
+      onClick={() => {
+        setContent('Hello Jack!')
+      }}>
+      {content}
+      <div>
+        <Test />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
