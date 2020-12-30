@@ -39,4 +39,4 @@ module.exports = {
 
 ## 运行机制
 
-![image](http://github.com/gmkgmk/react-launch-stack/raw/master/read-flow.png)
+![image](https://github.com/gmkgmk/react-launch-stack/blob/main/read-flow.png)
