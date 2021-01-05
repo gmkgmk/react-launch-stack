@@ -51,6 +51,6 @@ module.exports = {
 ![image](https://github.com/gmkgmk/react-launch-stack/blob/main/read-flow.png)
 
 
-##
+## template
 
 https://github.com/gmkgmk/react-launch-stack/tree/cra-template

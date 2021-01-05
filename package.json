@@ -7,7 +7,7 @@
   },
   "name": "launch-stack",
   "description": "点击页面自动在编辑带打开对应文件",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "main": "index.js",
   "directories": {
     "lib": "lib"
