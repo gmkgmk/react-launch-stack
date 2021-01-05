@@ -43,6 +43,9 @@ module.exports = {
 
 ---
 
+*fragment 和 <> 不会生效*
+*React.Fragment can only have `key` and `children` props*
+
 ## 运行机制
 
 ![image](https://github.com/gmkgmk/react-launch-stack/blob/main/read-flow.png)
