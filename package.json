@@ -4,5 +4,26 @@
     "html-webpack-plugin": "^4.5.0",
     "react-dev-utils": "^11.0.1",
     "webpack": "^5.9.0"
-  }
+  },
+  "name": "launch-stack",
+  "description": "点击页面自动在编辑带打开对应文件",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmkgmk/react-launch-stact.git"
+  },
+  "author": "gmk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmkgmk/react-launch-stact/issues"
+  },
+  "homepage": "https://github.com/gmkgmk/react-launch-stact#readme"
 }

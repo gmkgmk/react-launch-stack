@@ -15,11 +15,17 @@ _config-overrides.js_
 
 ## 使用
 
+```
+yarn add launch-stack
+or
+npm install launch-stack
+```
+
 ```javascript
 const {
   webpackLaunchStack,
   devServerLaunchStack,
-} = require('./../launch-stack')
+} = require('launch-stack')
 
 module.exports = {
   webpack: override(
@@ -40,3 +46,8 @@ module.exports = {
 ## 运行机制
 
 ![image](https://github.com/gmkgmk/react-launch-stack/blob/main/read-flow.png)
+
+
+##
+
+https://github.com/gmkgmk/react-launch-stack/tree/cra-template
