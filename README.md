@@ -1,6 +1,6 @@
 # react-launch-stack
 
-点击页面自动在编辑带打开对应文件
+点击页面自动在编辑器打开对应文件
 
 <!-- ![image](http://github.com/gmkgmk/react-launch-stack/raw/master/readme.gif) -->
 
